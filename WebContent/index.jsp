@@ -15,6 +15,7 @@
 	<div class="container">
 	
 	</div>
+	<div class="container-fluid"><%@ include file="footer.jsp" %></div>
 <%@ include file="js.jsp" %>
 </body>
 </html>

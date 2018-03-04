@@ -1,12 +1,26 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
-</head>
-<body>
-
-</body>
-</html>
+<nav class="navbar fixed-bottom navbar-inverse bg-primary">
+ <div class=" center_div">
+	 	 <form class="form-inline" action="process.jsp" method="post">
+			  <label class="sr-only" for="inlineFormInputGroup">Email</label>
+			  <div class="input-group mb-2 mr-sm-2 mb-sm-0">
+			    <div class="input-group-addon">Email</div>
+			    <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="example@dmoin.com">
+			  </div>
+			
+			    <div class="form-check">
+			      <label class="form-check-label">
+			        <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+			        Yes
+			      </label>
+			    </div>
+			    <div class="form-check">
+			    <label class="form-check-label">
+			        <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios2" value="option2">
+			        No
+			      </label>
+			    </div>
+			
+			  <button type="submit" class="btn btn-success">Submit</button>
+		</form>
+ </div>
+</nav>
