@@ -8,12 +8,16 @@
 <%@ include file="css.jsp" %>
 </head>
 <body>
-	<div class="container-fluid"><%@ include file="nav.jsp" %></div>
+	<div class="container-fluid" style="padding-left:0px; padding-right:0px;"><%@ include file="nav.jsp" %></div>
 	<div class="container">
 		<%@ include file="master.jsp" %>
 	</div>
 	<div class="container">
-	
+		<%
+			
+
+		%>
+		
 	</div>
 	<div class="container-fluid"><%@ include file="footer.jsp" %></div>
 <%@ include file="js.jsp" %>

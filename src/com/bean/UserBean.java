@@ -1,7 +1,7 @@
 package com.bean;
 
 public class UserBean {
-	private String email, vote, timeanddate;
+	private String email, vote;
 
 	public String getEmail() {
 		return email;
@@ -19,11 +19,5 @@ public class UserBean {
 		this.vote = vote;
 	}
 
-	public String getTimeanddate() {
-		return timeanddate;
-	}
-
-	public void setTimeanddate(String timeanddate) {
-		this.timeanddate = timeanddate;
-	}
+	
 }

@@ -4,18 +4,18 @@
 			  <label class="sr-only" for="inlineFormInputGroup">Email</label>
 			  <div class="input-group mb-2 mr-sm-2 mb-sm-0">
 			    <div class="input-group-addon">Email</div>
-			    <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="example@dmoin.com">
+			    <input type="text" class="form-control" id="inlineFormInputGroup" name="email" placeholder="example@dmoin.com">
 			  </div>
 			
 			    <div class="form-check">
 			      <label class="form-check-label">
-			        <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+			        <input type="radio" class="form-check-input" name="vote" id="optionsRadios1" value="yes" checked>
 			        Yes
 			      </label>
 			    </div>
 			    <div class="form-check">
 			    <label class="form-check-label">
-			        <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios2" value="option2">
+			        <input type="radio" class="form-check-input" name="vote" id="optionsRadios2" value="no">
 			        No
 			      </label>
 			    </div>
