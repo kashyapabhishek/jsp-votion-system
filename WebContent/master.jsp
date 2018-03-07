@@ -1,5 +1,7 @@
 <%@ page import="com.daw.UserDaw" %> 
-
+<%
+	
+%>
 <div class="jumbotron">
   <h1 class="display-3">Is Modi came back in 2019 !</h1>
   <p class="lead">Narendra Damodardas Modi is an Indian politician who is the 16th and current Prime Minister of India. Is he came back!</p>
